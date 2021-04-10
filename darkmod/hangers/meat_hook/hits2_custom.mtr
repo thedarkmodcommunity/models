@@ -1,0 +1,7 @@
+hits2_hookIron
+{
+	metal
+	diffusemap		textures/darkmod/custom/hits2_iron001_d
+	bumpmap			textures/darkmod/custom/hits2_iron001_local
+	specularmap		textures/darkmod/custom/hits2_iron001_s
+}
