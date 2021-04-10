@@ -1,0 +1,22 @@
+
+hits_streetlamp_sign
+{
+    metal
+    noshadows
+
+    diffusemap  textures/darkmod/custom/hits_streetsign
+	bumpmap	    models/darkmod/props/textures/anvil_n
+    specularmap _black
+
+}
+
+hits_streetlamp_rivets
+{
+    metal
+    noshadows
+
+    diffusemap  models/darkmod/props/textures/bc_lockplate02_s
+    bumpmap	    models/darkmod/props/textures/bc_lockplate02_local
+    specularmap _black
+
+}
