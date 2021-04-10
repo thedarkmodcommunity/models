@@ -2,7 +2,7 @@
 
 ## Details
 - a TDM street lamp with attached street signs
-- the actual street names in the preview image are just an example.  Customise 'lamp_sign_UV.jpg' to add your own names.
+- The street names in the preview image are just an example. Customise 'hits_streetsign.tga' with your own street names. Use 'lamp_sign_UV.jpg' as a guide for placement.
 
 ## Preview image
 ![alt text](lamp_ex.jpg "lamp")
