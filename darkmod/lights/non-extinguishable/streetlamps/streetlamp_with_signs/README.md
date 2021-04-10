@@ -6,3 +6,6 @@
 
 ## Preview image
 ![alt text](lamp_ex.jpg "lamp")
+
+## 3D preview
+![alt text](lamp_sign.stl "lamp3d")
