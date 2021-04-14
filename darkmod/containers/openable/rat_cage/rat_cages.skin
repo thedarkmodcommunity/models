@@ -1,0 +1,35 @@
+skin rat_cage_papers01
+{
+	model "models/darkmod/custom/rat_cage.lwo"
+	
+	"rat_cage_base" "rat_cage_base02"
+}
+
+skin rat_cage_papers02
+{
+	model "models/darkmod/custom/rat_cage.lwo"
+	
+	"rat_cage_base" "rat_cage_base03"
+}
+
+skin rat_cage_scratches
+{
+	model "models/darkmod/custom/rat_cage.lwo"
+	
+	"rat_cage_base" "rat_cage_base04"
+}
+
+skin rat_cage_gore
+{
+	model "models/darkmod/custom/rat_cage.lwo"
+	
+	"rat_cage_base" "rat_cage_base05"
+}
+
+skin rat_cage_straw
+{
+	model "models/darkmod/custom/rat_cage.lwo"
+	
+	"rat_cage_base" "rat_cage_base06"
+}
+
