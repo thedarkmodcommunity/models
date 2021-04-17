@@ -1,0 +1,25 @@
+rats_dead
+{
+	noselfshadow
+	flesh
+	diffusemap textures/darkmod/custom/dead_rat
+	bumpmap	_flat
+	specularmap _black
+	
+	//uncomment this section if you intend to frob dead rats
+	/*   
+	    {
+			if ( parm11 > 0 )
+			blend       gl_dst_color, gl_one
+			map         _white
+			rgb         0.40 * parm11
+		}
+		{
+			if ( parm11 > 0 )
+			blend       add
+			map         textures/darkmod/custom/dead_rat
+			rgb         0.15 * parm11
+		}
+	*/
+
+}
