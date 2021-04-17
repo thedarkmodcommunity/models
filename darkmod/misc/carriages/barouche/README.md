@@ -1,6 +1,9 @@
 # Barouche
 A posh carriage
 
+## Author
+`Dragofer`
+
 ## Details
 
 To use in your FM:
