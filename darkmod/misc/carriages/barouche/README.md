@@ -9,7 +9,7 @@ To use in your FM:
 - place the `.lwo` files in `models/darkmod/misc/carriages`
 
 ## 3D preview
-[link](lamp_sign.stl)
+[link](barouche.stl)
 
 ## Preview image
 ![alt text](barouche_ex.jpg "barouche")
