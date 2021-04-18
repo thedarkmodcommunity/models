@@ -1,0 +1,14 @@
+barouche_unlit
+{
+	model models/darkmod/misc/carriages/barouche.lwo
+	model models/darkmod/misc/carriages/barouche_nowheels.lwo
+}
+
+barouche_lit
+{
+	model models/darkmod/misc/carriages/barouche.lwo
+	model models/darkmod/misc/carriages/barouche_nowheels.lwo
+
+
+	textures/darkmod/window/lamp_glass_unlit_opaque textures/darkmod/window/lamp_glass_lit_opaque
+}

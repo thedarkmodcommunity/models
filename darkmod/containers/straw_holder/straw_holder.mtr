@@ -1,0 +1,11 @@
+straw_holder
+{
+    surftype15
+    description "carpet" //seemed okay for both sacking and ropes
+	noselfshadow
+ 	
+	diffusemap textures/darkmod/custom/straw_holder_d
+	specularmap _black
+	bumpmap _flat
+
+}

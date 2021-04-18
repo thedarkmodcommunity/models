@@ -1,0 +1,95 @@
+dark_rough_ns
+{
+	wood
+	noshadows
+
+    qer_editorimage textures/darkmod/wood/boards/dark_rough_ed
+    bumpmap         textures/darkmod/wood/boards/dark_rough_local
+    diffusemap      textures/darkmod/wood/boards/dark_rough
+
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         textures/darkmod/wood/boards/dark_rough
+        rgb         0.15 * parm11
+    }
+
+	// TDM Ambient Method Related 
+	{							
+		if (global5 == 1)		
+		blend add				
+		map				textures/darkmod/wood/boards/dark_rough		
+		scale			1, 1		
+		red				global2	
+		green			global3	
+		blue			global4	
+	}							
+	{							
+		if (global5 == 2)		
+		blend add				
+		program	ambientEnvironment.vfp	
+		vertexParm		0		1, 1, 1, 1		// UV Scales for Diffuse and Bump	
+		vertexParm		1		1, 1, 1, 1	// (X,Y) UV Scale for specular		
+		vertexParm		2		global2, global3, global4, 1	
+																
+		fragmentMap		0		cubeMap env/gen1				
+		fragmentMap		1		textures/darkmod/wood/boards/dark_rough_local			// Bump				
+		fragmentMap		2		textures/darkmod/wood/boards/dark_rough			// Diffuse			
+		fragmentMap		3		_black			// Specular			
+	}
+}
+
+
+beam_rusty_victorian_ns
+{
+        metal
+	noshadows
+
+    qer_editorimage textures/darkmod/metal/detailed/beam_rusty_victorian_ed
+    diffusemap      textures/darkmod/metal/detailed/beam_rusty_victorian
+    bumpmap         textures/darkmod/metal/detailed/beam_rusty_victorian_local
+    specularmap     textures/darkmod/metal/detailed/beam_rusty_victorian_s
+
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         textures/darkmod/metal/detailed/beam_rusty_victorian
+        rgb         0.15 * parm11
+    }
+
+	// TDM Ambient Method Related
+	{
+		if (global5 == 1)
+		blend add
+		map				textures/darkmod/metal/detailed/beam_rusty_victorian
+		scale			1, 1
+		red				global2
+		green			global3
+		blue			global4
+	}
+	{
+		if (global5 == 2)
+		blend add
+		program	ambientEnvironment.vfp
+		vertexParm		0		1, 1, 1, 1		// UV Scales for Diffuse and Bump
+		vertexParm		1		1, 1, 1, 1	// (X,Y) UV Scale for specular
+		vertexParm		2		global2, global3, global4, 1
+
+		fragmentMap		0		cubeMap env/gen1
+		fragmentMap		1		textures/darkmod/metal/detailed/beam_rusty_victorian_local
+		fragmentMap		2		textures/darkmod/metal/detailed/beam_rusty_victorian
+		fragmentMap		3		textures/darkmod/metal/detailed/beam_rusty_victorian_s
+	}
+}
