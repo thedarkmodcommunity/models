@@ -3,6 +3,9 @@
 ## Details
 - comes in separate pieces to allow the mapper to make different chain lengths, and rotate the hook and chain independently of the base plate
 
+## Credits
+Author: Kerry000
+
 ## 3D preview
 [link](hook_combined.stl)
 
