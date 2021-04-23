@@ -9,6 +9,9 @@ File locations can be changed in the .skin and .mtr files, but to use the defaul
 - place .mtr file into `materials`
 - place .skin file into `skins`
 
+## Credits
+Author: Kerry000
+
 ## 3D preview
 [link](rat_cage_preview.stl)
 
