@@ -7,7 +7,7 @@ All contributions should use the following conventions:
 - place your files in a new folder in the appropriate location.  This allows a separate README.md file to be automatically displayed for your contribution
 - provide a JPEG preview of your model by including a 1280x720 image in the root of your folder
 - include a .stl export of your model in the root of your folder for the 3D image preview
-- provide a README.md with a brief description of your contribution, any installation instructions and links to the preview files.  
+- provide a README.md with a brief description of your contribution, any installation instructions and links to the preview files.  Please use the [template](README.template.md) provided for the README.
 
 See any of the existing asset folders for examples of how this should look.
 
