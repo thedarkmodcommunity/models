@@ -1,6 +1,8 @@
 hits2_hookIron
 {
 	metal
+	qer_editorimage	textures/darkmod/custom/hits2_iron001_ed
+
 	diffusemap		textures/darkmod/custom/hits2_iron001_d
 	bumpmap			textures/darkmod/custom/hits2_iron001_local
 	specularmap		textures/darkmod/custom/hits2_iron001_s
